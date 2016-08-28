@@ -4,16 +4,16 @@ void main()
 {
 int i;
 clrscr();
-for(i=0; i<100; i++)
+for(i=1; i<=100; i++)
 {
-if(((i%3)&&(i%5))== 0)
+if(((i%3)||(i%5))== 0)
 printf("Number= %d,FizzBuzz\n", i );
 else if((i%3)==0)
-printf("Number= %d,Fizz\n", i);
+printf("Number= %d,Fizz\n", i );
 else if((i%5)==0)
-printf("Number= %d,Buzz\n", i);
+printf("Number= %d,Buzz\n", i );
 else
-printf("Number= %d\n",i);
+printf("Number= %d\n",i );
 }
 getch();
 }
